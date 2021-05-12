@@ -1,0 +1,30 @@
+{
+  "name": "maxmaxmax",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": "Shuffle Team",
+  "description": "Add the two best Tailwind CSS features to Bootstrap and Bulma",
+  "scripts": {
+    "bootstrap-css-compile": "node-sass --importer=node_modules/node-sass-tilde-importer --output-style expanded --source-map true --source-map-contents true --precision 6 scss/bootstrap/bootstrap.scss dist/bootstrap/bootstrap.css",
+    "bootstrap-css-minify": "cleancss --level 1 --source-map --source-map-inline-sources --output dist/bootstrap/bootstrap.min.css dist/bootstrap/bootstrap.css",
+    "bulma-css-compile": "node-sass --importer=node_modules/node-sass-tilde-importer --output-style expanded --source-map true --source-map-contents true --precision 6 scss/bulma/bulma.scss dist/bulma/bulma.css",
+    "bulma-css-minify": "cleancss --level 1 --source-map --source-map-inline-sources --output dist/bulma/bulma.min.css dist/bulma/bulma.css",
+    "minify-purged-bootstrap": "cleancss --level 1 --source-map --source-map-inline-sources --output purged/bootstrap.min.css purged/bootstrap.css",
+    "minify-purged-bulma": "cleancss --level 1 --source-map --source-map-inline-sources --output purged/bulma.min.css purged/bulma.css",
+    "css-bootstrap": "npm-run-all --sequential bootstrap-*",
+    "css-bulma": "npm-run-all --sequential bulma-*",
+    "css": "npm-run-all --sequential css-*",
+    "purge-bootstrap": "npm run bootstrap-css-compile && purgecss --css dist/bootstrap/bootstrap.css --output purged/ --content public/* && npm run minify-purged-bootstrap",
+    "purge-bulma": "npm run bulma-css-compile && purgecss --css dist/bulma/bulma.css --output purged/ --content public/* && npm run minify-purged-bulma"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.0.0",
+    "bulma": "^0.9.2",
+    "clean-css-cli": "^4.3.0",
+    "node-sass": "^6.0.0",
+    "node-sass-tilde-importer": "^1.0.2",
+    "npm-run-all": "^4.1.5",
+    "purgecss": "^4.0.3"
+  }
+}

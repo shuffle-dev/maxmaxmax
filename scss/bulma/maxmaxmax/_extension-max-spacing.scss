@@ -1,0 +1,67 @@
+@mixin spacingResponsive($resp) {
+    @each $property, $shortcut in $spacing-shortcuts {
+        @each $name, $value in $spacing-values {
+            // All directions
+            .#{$shortcut}-#{$name}-#{$resp} {
+                #{$property}: $value !important
+            }
+            // Cardinal directions
+            @each $direction, $suffix in $spacing-directions {
+                .#{$shortcut}#{$suffix}-#{$name}-#{$resp} {
+                    #{$property}-#{$direction}: $value !important
+                }
+            }
+            // Horizontal axis
+            @if $spacing-horizontal != null {
+                .#{$shortcut}#{$spacing-horizontal}-#{$name}-#{$resp} {
+                    #{$property}-left: $value !important;
+                    #{$property}-right: $value !important;
+                }
+            }
+            // Vertical axis
+            @if $spacing-vertical != null {
+                .#{$shortcut}#{$spacing-vertical}-#{$name}-#{$resp} {
+                    #{$property}-top: $value !important;
+                    #{$property}-bottom: $value !important;
+                }
+            }
+        }
+    }
+}
+
+@include mobile {
+    @include spacingResponsive(mobile);
+}
+
+@include tablet {
+    @include spacingResponsive(tablet);
+}
+
+@include tablet-only {
+    @include spacingResponsive(tablet-only);
+}
+
+@include touch {
+    @include spacingResponsive(touch);
+}
+
+@include desktop {
+    @include spacingResponsive(desktop);
+}
+
+@include desktop-only {
+    @include spacingResponsive(desktop-only);
+}
+
+@include widescreen {
+    @include spacingResponsive(widescreen);
+}
+
+@include widescreen-only {
+    @include spacingResponsive(widescreen-only);
+}
+
+@include fullhd {
+    @include spacingResponsive(fullhd);
+}
+

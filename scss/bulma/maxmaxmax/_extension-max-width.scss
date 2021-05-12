@@ -1,0 +1,66 @@
+.has-mw-0 { max-width: 0rem; }
+.has-mw-none { max-width: none; }
+.has-mw-xs { max-width: 20rem; }
+.has-mw-sm { max-width: 24rem; }
+.has-mw-md { max-width: 28rem; }
+.has-mw-lg { max-width: 32rem; }
+.has-mw-xl { max-width: 36rem; }
+.has-mw-2xl { max-width: 42rem; }
+.has-mw-3xl { max-width: 48rem; }
+.has-mw-4xl { max-width: 56rem; }
+.has-mw-5xl { max-width: 64rem; }
+.has-mw-6xl { max-width: 72rem; }
+.has-mw-7xl { max-width: 80rem; }
+
+@mixin hasMaxWidth($resp) {
+    .has-mw-0-#{$resp} { max-width: 0rem; }
+    .has-mw-none-#{$resp} { max-width: none; }
+    .has-mw-xs-#{$resp} { max-width: 20rem; }
+    .has-mw-sm-#{$resp} { max-width: 24rem; }
+    .has-mw-md-#{$resp} { max-width: 28rem; }
+    .has-mw-lg-#{$resp} { max-width: 32rem; }
+    .has-mw-xl-#{$resp} { max-width: 36rem; }
+    .has-mw-2xl-#{$resp} { max-width: 42rem; }
+    .has-mw-3xl-#{$resp} { max-width: 48rem; }
+    .has-mw-4xl-#{$resp} { max-width: 56rem; }
+    .has-mw-5xl-#{$resp} { max-width: 64rem; }
+    .has-mw-6xl-#{$resp} { max-width: 72rem; }
+    .has-mw-7xl-#{$resp} { max-width: 80rem; }
+}
+
+@include mobile {
+    @include hasMaxWidth(mobile);
+}
+
+@include tablet {
+    @include hasMaxWidth(tablet);
+}
+
+@include tablet-only {
+    @include hasMaxWidth(tablet-only);
+}
+
+@include touch {
+    @include hasMaxWidth(touch);
+}
+
+@include desktop {
+    @include hasMaxWidth(desktop);
+}
+
+@include desktop-only {
+    @include hasMaxWidth(desktop-only);
+}
+
+@include widescreen {
+    @include hasMaxWidth(widescreen);
+}
+
+@include widescreen-only {
+    @include hasMaxWidth(widescreen-only);
+}
+
+@include fullhd {
+    @include hasMaxWidth(fullhd);
+}
+

@@ -1,0 +1,33 @@
+.mw-0 { max-width: 0rem; }
+.mw-none { max-width: none; }
+.mw-xs { max-width: 20rem; }
+.mw-sm { max-width: 24rem; }
+.mw-md { max-width: 28rem; }
+.mw-lg { max-width: 32rem; }
+.mw-xl { max-width: 36rem; }
+.mw-2xl { max-width: 42rem; }
+.mw-3xl { max-width: 48rem; }
+.mw-4xl { max-width: 56rem; }
+.mw-5xl { max-width: 64rem; }
+.mw-6xl { max-width: 72rem; }
+.mw-7xl { max-width: 80rem; }
+
+@each $name, $width in $grid-breakpoints {
+    @if $width > 0 {
+        @include media-breakpoint-up($name) {
+            .mw-#{$name}-0 { max-width: 0rem; }
+            .mw-#{$name}-none { max-width: none; }
+            .mw-#{$name}-xs { max-width: 20rem; }
+            .mw-#{$name}-sm { max-width: 24rem; }
+            .mw-#{$name}-md { max-width: 28rem; }
+            .mw-#{$name}-lg { max-width: 32rem; }
+            .mw-#{$name}-xl { max-width: 36rem; }
+            .mw-#{$name}-2xl { max-width: 42rem; }
+            .mw-#{$name}-3xl { max-width: 48rem; }
+            .mw-#{$name}-4xl { max-width: 56rem; }
+            .mw-#{$name}-5xl { max-width: 64rem; }
+            .mw-#{$name}-6xl { max-width: 72rem; }
+            .mw-#{$name}-7xl { max-width: 80rem; }
+        }
+    }
+}
