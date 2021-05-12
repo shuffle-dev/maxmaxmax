@@ -1,7 +1,7 @@
 {
   "name": "maxmaxmax",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "author": "Shuffle Team",
   "description": "Add the two best Tailwind CSS features to Bootstrap and Bulma",
