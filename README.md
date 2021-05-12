@@ -217,6 +217,7 @@ npm run css
 ```
 
 3. You can also copy the ***maxmaxmax*** directory from the suitable framework and add these options to your existing project. 
+4. `npm install maxmaxmax`
 
 ## Why "maxmaxmax"?
 
