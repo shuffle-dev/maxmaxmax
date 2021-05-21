@@ -1,7 +1,4 @@
-/*! bulma.io v0.9.2 | MIT License | github.com/jgthms/bulma
-* MAXMAXMAX Extension v1.0.0 by Shuffle (https://shuffle.dev)
-* Licensed under MIT (LICENSE.txt) 
-*/
+/*! bulma.io v0.9.2 | MIT License | github.com/jgthms/bulma*/
 /* Bulma Utilities */
 .button, .input, .textarea, .select select, .file-cta,
 .file-name, .pagination-previous,
@@ -9475,6 +9472,36 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 0 !important;
 }
 
+.m-auto {
+  margin: auto !important;
+}
+
+.mt-auto {
+  margin-top: auto !important;
+}
+
+.mr-auto {
+  margin-right: auto !important;
+}
+
+.mb-auto {
+  margin-bottom: auto !important;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
 .m-0 {
   margin: 0px !important;
 }
@@ -10373,6 +10400,36 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .my-96 {
   margin-top: 24rem !important;
   margin-bottom: 24rem !important;
+}
+
+.p-auto {
+  padding: auto !important;
+}
+
+.pt-auto {
+  padding-top: auto !important;
+}
+
+.pr-auto {
+  padding-right: auto !important;
+}
+
+.pb-auto {
+  padding-bottom: auto !important;
+}
+
+.pl-auto {
+  padding-left: auto !important;
+}
+
+.px-auto {
+  padding-left: auto !important;
+  padding-right: auto !important;
+}
+
+.py-auto {
+  padding-top: auto !important;
+  padding-bottom: auto !important;
 }
 
 .p-0 {
@@ -13489,6 +13546,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 @media screen and (max-width: 768px) {
+  .m-auto-mobile {
+    margin: auto !important;
+  }
+  .mt-auto-mobile {
+    margin-top: auto !important;
+  }
+  .mr-auto-mobile {
+    margin-right: auto !important;
+  }
+  .mb-auto-mobile {
+    margin-bottom: auto !important;
+  }
+  .ml-auto-mobile {
+    margin-left: auto !important;
+  }
+  .mx-auto-mobile {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .my-auto-mobile {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
   .m-0-mobile {
     margin: 0px !important;
   }
@@ -14178,6 +14258,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .my-96-mobile {
     margin-top: 24rem !important;
     margin-bottom: 24rem !important;
+  }
+  .p-auto-mobile {
+    padding: auto !important;
+  }
+  .pt-auto-mobile {
+    padding-top: auto !important;
+  }
+  .pr-auto-mobile {
+    padding-right: auto !important;
+  }
+  .pb-auto-mobile {
+    padding-bottom: auto !important;
+  }
+  .pl-auto-mobile {
+    padding-left: auto !important;
+  }
+  .px-auto-mobile {
+    padding-left: auto !important;
+    padding-right: auto !important;
+  }
+  .py-auto-mobile {
+    padding-top: auto !important;
+    padding-bottom: auto !important;
   }
   .p-0-mobile {
     padding: 0px !important;
@@ -14872,6 +14975,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 @media screen and (min-width: 769px), print {
+  .m-auto-tablet {
+    margin: auto !important;
+  }
+  .mt-auto-tablet {
+    margin-top: auto !important;
+  }
+  .mr-auto-tablet {
+    margin-right: auto !important;
+  }
+  .mb-auto-tablet {
+    margin-bottom: auto !important;
+  }
+  .ml-auto-tablet {
+    margin-left: auto !important;
+  }
+  .mx-auto-tablet {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .my-auto-tablet {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
   .m-0-tablet {
     margin: 0px !important;
   }
@@ -15561,6 +15687,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .my-96-tablet {
     margin-top: 24rem !important;
     margin-bottom: 24rem !important;
+  }
+  .p-auto-tablet {
+    padding: auto !important;
+  }
+  .pt-auto-tablet {
+    padding-top: auto !important;
+  }
+  .pr-auto-tablet {
+    padding-right: auto !important;
+  }
+  .pb-auto-tablet {
+    padding-bottom: auto !important;
+  }
+  .pl-auto-tablet {
+    padding-left: auto !important;
+  }
+  .px-auto-tablet {
+    padding-left: auto !important;
+    padding-right: auto !important;
+  }
+  .py-auto-tablet {
+    padding-top: auto !important;
+    padding-bottom: auto !important;
   }
   .p-0-tablet {
     padding: 0px !important;
@@ -16255,6 +16404,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1023px) {
+  .m-auto-tablet-only {
+    margin: auto !important;
+  }
+  .mt-auto-tablet-only {
+    margin-top: auto !important;
+  }
+  .mr-auto-tablet-only {
+    margin-right: auto !important;
+  }
+  .mb-auto-tablet-only {
+    margin-bottom: auto !important;
+  }
+  .ml-auto-tablet-only {
+    margin-left: auto !important;
+  }
+  .mx-auto-tablet-only {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .my-auto-tablet-only {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
   .m-0-tablet-only {
     margin: 0px !important;
   }
@@ -16944,6 +17116,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .my-96-tablet-only {
     margin-top: 24rem !important;
     margin-bottom: 24rem !important;
+  }
+  .p-auto-tablet-only {
+    padding: auto !important;
+  }
+  .pt-auto-tablet-only {
+    padding-top: auto !important;
+  }
+  .pr-auto-tablet-only {
+    padding-right: auto !important;
+  }
+  .pb-auto-tablet-only {
+    padding-bottom: auto !important;
+  }
+  .pl-auto-tablet-only {
+    padding-left: auto !important;
+  }
+  .px-auto-tablet-only {
+    padding-left: auto !important;
+    padding-right: auto !important;
+  }
+  .py-auto-tablet-only {
+    padding-top: auto !important;
+    padding-bottom: auto !important;
   }
   .p-0-tablet-only {
     padding: 0px !important;
@@ -17638,6 +17833,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 @media screen and (max-width: 1023px) {
+  .m-auto-touch {
+    margin: auto !important;
+  }
+  .mt-auto-touch {
+    margin-top: auto !important;
+  }
+  .mr-auto-touch {
+    margin-right: auto !important;
+  }
+  .mb-auto-touch {
+    margin-bottom: auto !important;
+  }
+  .ml-auto-touch {
+    margin-left: auto !important;
+  }
+  .mx-auto-touch {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .my-auto-touch {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
   .m-0-touch {
     margin: 0px !important;
   }
@@ -18327,6 +18545,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .my-96-touch {
     margin-top: 24rem !important;
     margin-bottom: 24rem !important;
+  }
+  .p-auto-touch {
+    padding: auto !important;
+  }
+  .pt-auto-touch {
+    padding-top: auto !important;
+  }
+  .pr-auto-touch {
+    padding-right: auto !important;
+  }
+  .pb-auto-touch {
+    padding-bottom: auto !important;
+  }
+  .pl-auto-touch {
+    padding-left: auto !important;
+  }
+  .px-auto-touch {
+    padding-left: auto !important;
+    padding-right: auto !important;
+  }
+  .py-auto-touch {
+    padding-top: auto !important;
+    padding-bottom: auto !important;
   }
   .p-0-touch {
     padding: 0px !important;
@@ -19021,6 +19262,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 @media screen and (min-width: 1024px) {
+  .m-auto-desktop {
+    margin: auto !important;
+  }
+  .mt-auto-desktop {
+    margin-top: auto !important;
+  }
+  .mr-auto-desktop {
+    margin-right: auto !important;
+  }
+  .mb-auto-desktop {
+    margin-bottom: auto !important;
+  }
+  .ml-auto-desktop {
+    margin-left: auto !important;
+  }
+  .mx-auto-desktop {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .my-auto-desktop {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
   .m-0-desktop {
     margin: 0px !important;
   }
@@ -19710,6 +19974,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .my-96-desktop {
     margin-top: 24rem !important;
     margin-bottom: 24rem !important;
+  }
+  .p-auto-desktop {
+    padding: auto !important;
+  }
+  .pt-auto-desktop {
+    padding-top: auto !important;
+  }
+  .pr-auto-desktop {
+    padding-right: auto !important;
+  }
+  .pb-auto-desktop {
+    padding-bottom: auto !important;
+  }
+  .pl-auto-desktop {
+    padding-left: auto !important;
+  }
+  .px-auto-desktop {
+    padding-left: auto !important;
+    padding-right: auto !important;
+  }
+  .py-auto-desktop {
+    padding-top: auto !important;
+    padding-bottom: auto !important;
   }
   .p-0-desktop {
     padding: 0px !important;
@@ -20404,6 +20691,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1215px) {
+  .m-auto-desktop-only {
+    margin: auto !important;
+  }
+  .mt-auto-desktop-only {
+    margin-top: auto !important;
+  }
+  .mr-auto-desktop-only {
+    margin-right: auto !important;
+  }
+  .mb-auto-desktop-only {
+    margin-bottom: auto !important;
+  }
+  .ml-auto-desktop-only {
+    margin-left: auto !important;
+  }
+  .mx-auto-desktop-only {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .my-auto-desktop-only {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
   .m-0-desktop-only {
     margin: 0px !important;
   }
@@ -21093,6 +21403,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .my-96-desktop-only {
     margin-top: 24rem !important;
     margin-bottom: 24rem !important;
+  }
+  .p-auto-desktop-only {
+    padding: auto !important;
+  }
+  .pt-auto-desktop-only {
+    padding-top: auto !important;
+  }
+  .pr-auto-desktop-only {
+    padding-right: auto !important;
+  }
+  .pb-auto-desktop-only {
+    padding-bottom: auto !important;
+  }
+  .pl-auto-desktop-only {
+    padding-left: auto !important;
+  }
+  .px-auto-desktop-only {
+    padding-left: auto !important;
+    padding-right: auto !important;
+  }
+  .py-auto-desktop-only {
+    padding-top: auto !important;
+    padding-bottom: auto !important;
   }
   .p-0-desktop-only {
     padding: 0px !important;
@@ -21787,6 +22120,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 @media screen and (min-width: 1216px) {
+  .m-auto-widescreen {
+    margin: auto !important;
+  }
+  .mt-auto-widescreen {
+    margin-top: auto !important;
+  }
+  .mr-auto-widescreen {
+    margin-right: auto !important;
+  }
+  .mb-auto-widescreen {
+    margin-bottom: auto !important;
+  }
+  .ml-auto-widescreen {
+    margin-left: auto !important;
+  }
+  .mx-auto-widescreen {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .my-auto-widescreen {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
   .m-0-widescreen {
     margin: 0px !important;
   }
@@ -22476,6 +22832,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .my-96-widescreen {
     margin-top: 24rem !important;
     margin-bottom: 24rem !important;
+  }
+  .p-auto-widescreen {
+    padding: auto !important;
+  }
+  .pt-auto-widescreen {
+    padding-top: auto !important;
+  }
+  .pr-auto-widescreen {
+    padding-right: auto !important;
+  }
+  .pb-auto-widescreen {
+    padding-bottom: auto !important;
+  }
+  .pl-auto-widescreen {
+    padding-left: auto !important;
+  }
+  .px-auto-widescreen {
+    padding-left: auto !important;
+    padding-right: auto !important;
+  }
+  .py-auto-widescreen {
+    padding-top: auto !important;
+    padding-bottom: auto !important;
   }
   .p-0-widescreen {
     padding: 0px !important;
@@ -23170,6 +23549,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 @media screen and (min-width: 1216px) and (max-width: 1407px) {
+  .m-auto-widescreen-only {
+    margin: auto !important;
+  }
+  .mt-auto-widescreen-only {
+    margin-top: auto !important;
+  }
+  .mr-auto-widescreen-only {
+    margin-right: auto !important;
+  }
+  .mb-auto-widescreen-only {
+    margin-bottom: auto !important;
+  }
+  .ml-auto-widescreen-only {
+    margin-left: auto !important;
+  }
+  .mx-auto-widescreen-only {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .my-auto-widescreen-only {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
   .m-0-widescreen-only {
     margin: 0px !important;
   }
@@ -23859,6 +24261,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .my-96-widescreen-only {
     margin-top: 24rem !important;
     margin-bottom: 24rem !important;
+  }
+  .p-auto-widescreen-only {
+    padding: auto !important;
+  }
+  .pt-auto-widescreen-only {
+    padding-top: auto !important;
+  }
+  .pr-auto-widescreen-only {
+    padding-right: auto !important;
+  }
+  .pb-auto-widescreen-only {
+    padding-bottom: auto !important;
+  }
+  .pl-auto-widescreen-only {
+    padding-left: auto !important;
+  }
+  .px-auto-widescreen-only {
+    padding-left: auto !important;
+    padding-right: auto !important;
+  }
+  .py-auto-widescreen-only {
+    padding-top: auto !important;
+    padding-bottom: auto !important;
   }
   .p-0-widescreen-only {
     padding: 0px !important;
@@ -24553,6 +24978,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 @media screen and (min-width: 1408px) {
+  .m-auto-fullhd {
+    margin: auto !important;
+  }
+  .mt-auto-fullhd {
+    margin-top: auto !important;
+  }
+  .mr-auto-fullhd {
+    margin-right: auto !important;
+  }
+  .mb-auto-fullhd {
+    margin-bottom: auto !important;
+  }
+  .ml-auto-fullhd {
+    margin-left: auto !important;
+  }
+  .mx-auto-fullhd {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .my-auto-fullhd {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
   .m-0-fullhd {
     margin: 0px !important;
   }
@@ -25242,6 +25690,29 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .my-96-fullhd {
     margin-top: 24rem !important;
     margin-bottom: 24rem !important;
+  }
+  .p-auto-fullhd {
+    padding: auto !important;
+  }
+  .pt-auto-fullhd {
+    padding-top: auto !important;
+  }
+  .pr-auto-fullhd {
+    padding-right: auto !important;
+  }
+  .pb-auto-fullhd {
+    padding-bottom: auto !important;
+  }
+  .pl-auto-fullhd {
+    padding-left: auto !important;
+  }
+  .px-auto-fullhd {
+    padding-left: auto !important;
+    padding-right: auto !important;
+  }
+  .py-auto-fullhd {
+    padding-top: auto !important;
+    padding-bottom: auto !important;
   }
   .p-0-fullhd {
     padding: 0px !important;
